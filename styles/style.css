@@ -1,0 +1,17 @@
+:root{
+    --primary:#6c63ff;
+    --secondary:#f50057;
+    --primary-dark:#4b45b2;
+    --secondary-dark:#ab003c;
+    --off-white:#fffff4;
+    --white:#ffffff
+}
+*{
+    box-sizing: border-box;
+}
+.primary-link{
+    color:var(--primary);
+    text-decoration: None;
+    font-size: 1.2rem;
+    
+}
