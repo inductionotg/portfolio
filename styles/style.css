@@ -27,8 +27,17 @@ a{
 .primary-link{
     color:var(--primary);
     text-decoration: None;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    display: block;
+    padding: 0.5rem;
     
+}
+.secondary-link{
+    display: block;
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem;
 }
 .hero{
     border-radius: 2rem;
@@ -71,18 +80,41 @@ header h1{
 .ow{
     background-color: var(--off-white);
 }
-footer{
-    padding: 2rem 1rem;
-    background-color: var(--primary-dark);
-    color: var(--white);
-}
-footer a{
-    color: var(--white);
-}
+
 footer li{
     list-style: none;
     padding:0.5rem;
+    display: inline-block;
 }
 .text-m{
     font-size: 1.2rem;
+}
+ 
+.projects .date{
+    margin-bottom: -0.2rem;
+    font-size: 0.8rem;
+    
+}
+.container .blog-heading{
+    color: var(--blue);
+    margin-bottom: 0rem;
+}
+
+.container .blog-link{
+    background-color:var(--primary-color)
+}
+.link-primary{
+    background-color: var(--secondary);
+    border-radius: 00.5rem;
+    color: rgb(202, 10, 10);
+    
+}
+
+.link-secondary{
+    color: var(--secondary);
+    border: 1px solid var(--primary-dark);
+    border-radius: 0.5rem;
+    }
+.container p{
+    font-weight: bold;
 }

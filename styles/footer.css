@@ -1,0 +1,24 @@
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1.5rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footer .link{
+    color: white
+}
+
+.footer ul{
+    padding-inline-start:0px;
+}
+
+.footer .footer-link-size{
+    font-size: 1.2rem;
+}
